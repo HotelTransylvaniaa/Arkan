@@ -1,0 +1,35 @@
+.card{
+    box-sizing: content-box;
+    position: relative;
+    border: 0px solid rgba(250, 246, 246, 0.125);
+    img{
+        height: 25rem;
+        border-radius: 10px;
+    }
+}
+.layar{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.178);
+    border-radius: 10px;
+}
+.layar:hover{
+    background-color: rgba(0, 0, 0, 0);
+}
+.card-title{
+    position: absolute;
+     bottom: 2rem;
+     left: 50%;
+     transform: translateX(-50%);
+     text-align: center;
+     color: white;
+     h3{
+        margin-bottom: 15px;
+     }
+     span{
+        background-color: #f73859 ;
+        padding: 4px 8px;
+        font-size: small;
+     }
+}

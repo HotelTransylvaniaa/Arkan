@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CitysSectionComponent } from './citys-section/citys-section.component';
-import { CityscardComponent } from './cityscard/cityscard.component';
+import { CitycardComponent } from './citycard/citycard.component';
 import { WhatsappComponent } from './whatsapp/whatsapp.component';
 
 
@@ -12,8 +12,8 @@ import { WhatsappComponent } from './whatsapp/whatsapp.component';
   declarations: [
     AppComponent,
     CitysSectionComponent,
-    CityscardComponent,
-    WhatsappComponent
+    WhatsappComponent,
+    CitycardComponent
   ],
   imports: [
     BrowserModule,

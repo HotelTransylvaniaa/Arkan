@@ -1,13 +1,13 @@
-<div class="container card-section text-center my-5" style="font-family: 'Cairo', sans-serif;font-size: 22px;font-weight: bolder;">
+<div class="container card-section text-center my-5">
     <h1>أين تحلم بالتملك في تركيا ؟</h1>
     <div class="col-5 m-auto my-4">
         <p class="mb-5">اختر المنطقة التي ترغب في شراء عقار بها بعناية .. هناك العديد من المزايا التي تقدمها الحكومة
             التركية للمستثمرين الأجانب وذلك لتشجيعهم على الاستثمار في تركيا، وأهمها منحهم الإقامة ومن ثم الجنسية التركية
         </p>
     </div>
-    <div class="row g-1 d-flex justify-content-center m-5">
-        <div class="col-4 rounded g-3" *ngFor="let city of citys">
-            <app-cityscard [cityItem]="city"></app-cityscard>
+    <div class="row d-flex justify-content-center m-5">
+        <div class="col-4 g-1" *ngFor="let city of citys">
+            <app-citycard [cityItem]="city"></app-citycard>
         </div>
     </div>
 

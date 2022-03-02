@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CityscardComponent } from './cityscard.component';
+import { CityscardComponent } from './citycard.component';
 
 describe('CityscardComponent', () => {
   let component: CityscardComponent;
