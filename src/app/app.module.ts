@@ -5,12 +5,24 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ArkanServicesComponent } from './Home/arkan-services/arkan-services.component';
 import { ArkanServicesListComponent } from './Home/arkan-services-list/arkan-services-list.component';
+import { HeaderComponent } from './Home/header/header.component';
+import { CitysSectionComponent } from './Home/citys-section/citys-section.component';
+import { CityCardComponent } from './Home/city-card/city-card.component';
+import { WhatsappComponent } from './whatsapp/whatsapp.component';
+import { FooterComponent } from './footer/footer.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ArkanServicesComponent,
-    ArkanServicesListComponent
+    ArkanServicesListComponent,
+    HeaderComponent,
+    CitysSectionComponent,
+    CityCardComponent,
+    WhatsappComponent,
+    FooterComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
