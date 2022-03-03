@@ -1,6 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
-
-// booystrap icons
-@import "node_modules/bootstrap-icons";
-
+//  @import "@fortawesome/fontawesome-free/CSS/all.min.css";
+*{
+    box-sizing: border-box;
+    font-family: 'Almarai' ,'Cairo', sans-serif;
+    font-family: 'Scheherazade New', serif;
+    font-size: 22px;
+    font-weight: bolder;
+}

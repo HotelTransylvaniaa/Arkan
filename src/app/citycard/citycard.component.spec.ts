@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ArkanServicesListComponent } from './arkan-services-list.component';
+import { CityscardComponent } from './citycard.component';
 
-describe('ArkanServicesListComponent', () => {
-  let component: ArkanServicesListComponent;
-  let fixture: ComponentFixture<ArkanServicesListComponent>;
+describe('CityscardComponent', () => {
+  let component: CityscardComponent;
+  let fixture: ComponentFixture<CityscardComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ArkanServicesListComponent ]
+      declarations: [ CityscardComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ArkanServicesListComponent);
+    fixture = TestBed.createComponent(CityscardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

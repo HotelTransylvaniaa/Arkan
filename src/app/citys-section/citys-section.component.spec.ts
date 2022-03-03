@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ArkanServicesComponent } from './arkan-services.component';
+import { CitysSectionComponent } from './citys-section.component';
 
-describe('ArkanServicesComponent', () => {
-  let component: ArkanServicesComponent;
-  let fixture: ComponentFixture<ArkanServicesComponent>;
+describe('CitysSectionComponent', () => {
+  let component: CitysSectionComponent;
+  let fixture: ComponentFixture<CitysSectionComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ArkanServicesComponent ]
+      declarations: [ CitysSectionComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ArkanServicesComponent);
+    fixture = TestBed.createComponent(CitysSectionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
