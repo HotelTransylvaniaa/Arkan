@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="row">
+    <h3 class="text-center mt-5">خدمات مجموعة أركان العقارية</h3>
+    <p class="text-center">بخبرة تمتد لسنوات في مجال التسويق العقاري التركي وبفريق عمل متعدد الجنسيات واللغات <br>مهما كان هدفك من الشراء ( إقامة – استثمار – جنسية تركية ) سنساعدك بكل ثقة</p>
+    <div class="col-xl-3 col-lg-6 mt-4"*ngFor=" let service of Services">
+      <app-arkan-services [Service]="service"></app-arkan-services>
+    </div>
+  </div>
+</div>
