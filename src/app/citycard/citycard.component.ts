@@ -1,4 +1,5 @@
 import { Component, OnInit ,Input } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-citycard',
@@ -7,9 +8,13 @@ import { Component, OnInit ,Input } from '@angular/core';
 })
 export class CitycardComponent implements OnInit {
   @Input() cityItem : any; 
-  constructor() { }
+  
+  constructor(private router : Router) {}
 
-  ngOnInit(): void {
+  ngOnInit(): void {  }
+
+  navigateToprojectDetails(){
+    this.router.navigate(['/projects' , this.cityItem.id])
   }
 
 }

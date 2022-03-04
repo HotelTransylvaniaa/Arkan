@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { CitysSectionComponent } from './citys-section/citys-section.component';
 import { CitycardComponent } from './citycard/citycard.component';
 import { WhatsappComponent } from './whatsapp/whatsapp.component';
+import { ProjectDetailsComponent } from './project-details/project-details.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { WhatsappComponent } from './whatsapp/whatsapp.component';
     AppComponent,
     CitysSectionComponent,
     WhatsappComponent,
-    CitycardComponent
+    CitycardComponent,
+    ProjectDetailsComponent
   ],
   imports: [
     BrowserModule,
